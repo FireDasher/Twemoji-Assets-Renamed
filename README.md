@@ -6,14 +6,10 @@ How to use: download the zip thing in releases
 
 ### Dev stuff:
 
-Build with `npm run dothestuff`
+Build with `npm run run`
 
-`Assets-original` is original twemoji assets.
+Clear `assets-renamed` folder with `npm run clear`
 
-`Assets-renamed` is renamed twemoji assets.
+Building will give you a ton of errors, 99% are just because twemoji is missing some emojis from the emojibase database.
 
-`Emoji-name-map-namer.js` creates the json file that the renamer uses.
-
-`Assets-renamer.js` renames the files.
-
-`Emoji-name-map.json` is the thing used to rename files.
+`Old` is old crap

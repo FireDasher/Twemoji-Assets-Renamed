@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"bruh\" && exit 1",
-    "dothestuff": "node emoji-name-map-namer && node assets-renamer"
+    "run": "node assets-renamer",
+    "clear": "rm ./assets-renamed/72x72/*; rm ./assets-renamed/svg/*"
   },
   "author": "",
   "license": "ISC",
