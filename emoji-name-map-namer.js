@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
-const emojiunicode = require("emoji-unicode");
-const emojinamemap = require("emoji-name-map/lib/datasource.json");
+const emojiunicode = require("./lib/emoji-unicode");
+const emojinamemap = require("./lib/datasource.json");
 const emojinamemapNew = {};
 
 const twemojiNames = fs.readdirSync("./assets-original/72x72").map(e=>path.parse(e).name);

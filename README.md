@@ -5,11 +5,10 @@ I made this so i can use Discord emojis easily and in an organized folder.
 How to use: download the zip thing in releases
 
 ### Dev stuff:
-**Warning:** Modules in node_modules are modified! Do not use `npm install`! I know this is probably bad but too bad.
 
-Build with `npm run run`
+Build with `npm run dothestuff`
 
-`Assets-origimal` is original twemoji assets.
+`Assets-original` is original twemoji assets.
 
 `Assets-renamed` is renamed twemoji assets.
 

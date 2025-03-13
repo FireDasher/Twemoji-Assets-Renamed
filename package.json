@@ -4,13 +4,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"bruh\" && exit 1",
-    "run": "node emoji-name-map-namer && node assets-renamer"
+    "dothestuff": "node emoji-name-map-namer && node assets-renamer"
   },
   "author": "",
   "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "emoji-name-map": "^2.0.1",
-    "emoji-unicode": "^2.0.2"
-  }
+  "description": ""
 }
